@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Корзина</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="preload" href="fonts/proximanovaregular.woff2" as="font">
+  <link rel="preload" href="fonts/proximanovasemibold.woff2" as="font">
+  <link rel="preload" href="fonts/proximanovabold.woff2" as="font">
+  <link rel="preload" href="fonts/proximanovaextrabold.woff2" as="font">
+</head>
+
+<body>
+  <section class="b-cart">
+    <div class="b-cart__header-wrapper--outer">
+      <div class="b-cart__header">
+        <div class="b-cart__header-wrapper--inner">
+          <span class="b-cart__header-title">Корзина</span>
+          <span class="b-cart__header-count">12</span>
+        </div>
+        <p class="b-cart__header-paragraph">Организуйте тендер между выбранными компаниями. Приглашайте компании  в новый или текущий тендер в один клик. Отобранные компании хранятся <br>по отдельным вкладкам.
+        </p>
+      </div>
+
+    <ul class="b-cart__list">
+      <li class="b-cart__item">
+        <a class="b-cart__item-link b-cart__item-link--active" href="#">Разработка сайтов
+          <span class="b-cart__item-count">7</span>
+        </a>
+      </li>
+      <li class="b-cart__item">
+        <a class="b-cart__item-link" href="#">Поисковая оптимизация
+          <span class="b-cart__item-count">3</span>
+        </a>
+      </li>
+      <li class="b-cart__item">
+        <a class="b-cart__item-link" href="#">Разработка приложений
+          <span class="b-cart__item-count">5</span>
+        </a>
+      </li>
+      <li class="b-cart__item">
+        <a class="b-cart__item-link" href="#">Контекстная реклама
+          <span class="b-cart__item-count">0</span>
+        </a>
+      </li>
+      <li class="b-cart__item">
+        <a class="b-cart__item-link" href="#">Маркетинг, SMM, PR
+          <span class="b-cart__item-count">0</span>
+        </a>
+      </li>
+    </ul>
+    </div>
+
+    <form class="b-cart__form" action="https://echo.htmlacademy.ru" method="post">
+      <table class="b-cart__table">
+        <tr class="b-cart__table-title">
+          <th class="b-cart__table-title-item"><a class="b-cart__table-title-link" href="#">В тендере</a></th>
+          <th class="b-cart__table-title-item"><a class="b-cart__table-title-link" href="#">Агентство</a></th>
+          <th class="b-cart__table-title-item"><a class="b-cart__table-title-link" href="#">Город</a></th>
+          <th class="b-cart__table-title-item"><a class="b-cart__table-title-link" href="#">Ценовой сегмент</a></th>
+          <th class="b-cart__table-title-item"><a class="b-cart__table-title-link" href="#">Проектов</a></th>
+          <th class="b-cart__table-title-item"><a class="b-cart__table-title-link" href="#">Лет на рынке</a></th>
+        </tr>
+
+        <tr class="b-cart__table-row">
+          <td class="b-cart__td-logo">
+            <input class="b-cart__checkbox visually-hidden" id="RuNetSoft" type="checkbox" name="RuNetSoft" checked>
+            <label class="b-cart__label" for="RuNetSoft" tabindex="0">
+              <img src="img/RuNetSoft@1x.png" srcset="img/RuNetSoft@2x.png 2x, img/RuNetSoft@3x.png 3x" alt="Логотип RuNetSoft">
+            </label>
+          </td>
+          <td class="b-cart__td-name b-cart__td-name--pro"><span>RuNetSoft</span></td>
+          <td>Смоленск</td>
+          <td>
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 2 из 5">
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 2 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 2 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 2 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 2 из 5">
+          </td>
+          <td>163</td>
+          <td>8 лет</td>
+        </tr>
+
+        <tr class="b-cart__table-row">
+          <td class="b-cart__td-logo">
+            <input class="b-cart__checkbox visually-hidden" id="Klon" type="checkbox" name="Klondike" checked>
+            <label class="b-cart__label" for="Klon" tabindex="0">
+              <img src="img/Klon@1x.png" srcset="img/Klon@2x.png 2x, img/Klon@3x.png 3x" alt="Логотип Клондайк">
+            </label>
+          </td>
+          <td class="b-cart__td-name b-cart__td-name--pro"><span>Клондайк</span></td>
+          <td>Москва</td>
+          <td>
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 3 из 5">
+          </td>
+          <td>281</td>
+          <td>4 лет</td>
+        </tr>
+
+        <tr class="b-cart__table-row">
+          <td class="b-cart__td-logo">
+            <input class="b-cart__checkbox visually-hidden" id="Cetera" type="checkbox" name="CeteraLabs" checked>
+            <label class="b-cart__label" for="Cetera" tabindex="0">
+              <img src="img/CeteraLabs@1x.png" srcset="img/CeteraLabs@2x.png 2x, img/CeteraLabs@3x.png 3x" alt="Логотип Cetera Labs">
+            </label>
+          </td>
+          <td class="b-cart__td-name b-cart__td-name--pro"><span>Cetera Labs</span></td>
+          <td>Ижевск</td>
+          <td>
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 4 из 5">
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 4 из 5">
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 4 из 5">
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 4 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 4 из 5">
+          </td>
+          <td>30</td>
+          <td>12 лет</td>
+        </tr>
+
+        <tr class="b-cart__table-row">
+          <td class="b-cart__td-logo">
+            <input class="b-cart__checkbox visually-hidden" id="Techno" type="checkbox" name="Techno" checked>
+            <label class="b-cart__label" for="Techno" tabindex="0">
+              <img src="img/Techno@1x.png" srcset="img/Techno@2x.png 2x, img/Techno@3x.png 3x" alt="Логотип Cetera Labs">
+            </label>
+          </td>
+          <td class="b-cart__td-name"><span>Технологии успеха</span></td>
+          <td>Минск</td>
+          <td>
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 3 из 5">
+          </td>
+          <td>229</td>
+          <td>3 лет</td>
+        </tr>
+
+        <tr class="b-cart__table-row">
+          <td class="b-cart__td-logo">
+            <input class="b-cart__checkbox visually-hidden" id="Uni" type="checkbox" name="UniWeb" checked>
+            <label class="b-cart__label" for="Uni" tabindex="0">
+              <img src="img/UniWeb@1x.png" srcset="img/UniWeb@2x.png 2x, img/UniWeb@3x.png 3x" alt="Логотип ЮниВеб">
+            </label>
+          </td>
+          <td class="b-cart__td-name"><span>ЮниВеб</span></td>
+          <td>Киев</td>
+          <td>
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 3 из 5">
+          </td>
+          <td>43</td>
+          <td>5 лет</td>
+        </tr>
+
+        <tr class="b-cart__table-row">
+          <td class="b-cart__td-logo">
+            <input class="b-cart__checkbox visually-hidden" id="SevenWinds" type="checkbox" name="SevenWindsStudio" checked>
+            <label class="b-cart__label" for="SevenWinds" tabindex="0">
+              <img src="img/SevenWinds@1x.png" srcset="img/SevenWinds@2x.png 2x, img/SevenWinds@3x.png 3x" alt="Логотип SevenWindsStudio">
+            </label>
+          </td>
+          <td class="b-cart__td-name"><span>Seven Winds Studio</span></td>
+          <td>Новороссийск</td>
+          <td>
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 2 из 5">
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 2 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 2 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 2 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 2 из 5">
+          </td>
+          <td>17</td>
+          <td>3 лет</td>
+        </tr>
+
+        <tr class="b-cart__table-row">
+          <td class="b-cart__td-logo">
+            <input class="b-cart__checkbox visually-hidden" id="Techno2" type="checkbox" name="Techno" checked>
+            <label class="b-cart__label" for="Techno2" tabindex="0">
+              <img src="img/Techno@1x.png" srcset="img/Techno@2x.png 2x, img/Techno@3x.png 3x" alt="Логотип Cetera Labs">
+            </label>
+          </td>
+          <td class="b-cart__td-name"><span>Технологии успеха</span></td>
+          <td>Минск</td>
+          <td>
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 3 из 5">
+          </td>
+          <td>229</td>
+          <td>3 лет</td>
+        </tr>
+
+        <tr class="b-cart__table-row">
+          <td class="b-cart__td-logo">
+            <input class="b-cart__checkbox visually-hidden" id="Uni2" type="checkbox" name="UniWeb" checked>
+            <label class="b-cart__label" for="Uni2" tabindex="0">
+              <img src="img/UniWeb@1x.png" srcset="img/UniWeb@2x.png 2x, img/UniWeb@3x.png 3x" alt="Логотип ЮниВеб">
+            </label>
+          </td>
+          <td class="b-cart__td-name"><span>ЮниВеб</span></td>
+          <td>Киев</td>
+          <td>
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-black.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 3 из 5">
+            <img src="img/rub-grey.svg" alt="Ценовой сегмент 3 из 5">
+          </td>
+          <td>64</td>
+          <td>4 лет</td>
+        </tr>
+
+    </table>
+  </form>
+
+  </section>
+</body>
+
+</html>
